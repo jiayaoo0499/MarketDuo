@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResultDialog</class>
+ <widget class="QDialog" name="ResultDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="resultLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>40</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>结算</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>240</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>继续</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>进货量</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>定价</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>顾客数</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>实际售出</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>进货花费</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>销售收入</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>信誉变化</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>剩余金币</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>所用道具</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>玩家1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>玩家2</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
